@@ -77,6 +77,7 @@ pub(super) fn synthesise_type_annotation<T: crate::ReadFromFS>(
 		}
 		TypeAnnotation::Name(name, pos) => match name.as_str() {
 			"any" => TypeId::ANY_TYPE,
+			"never" => TypeId::NEVER_TYPE,
 			"this" => todo!(), // environment.get_value_of_this(&mut checking_data.types),
 			"self" => TypeId::ANY_INFERRED_FREE_THIS,
 			name => {
