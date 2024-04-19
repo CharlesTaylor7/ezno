@@ -64,7 +64,6 @@ impl RootContext {
 			("boolean".to_owned(), TypeId::BOOLEAN_TYPE),
 			("null".to_owned(), TypeId::NULL_TYPE),
 			("undefined".to_owned(), TypeId::UNDEFINED_TYPE),
-			("never".to_owned(), TypeId::NEVER_TYPE),
 			("void".to_owned(), TypeId::VOID_TYPE),
 			("Array".to_owned(), TypeId::ARRAY_TYPE),
 			("Promise".to_owned(), TypeId::PROMISE_TYPE),
